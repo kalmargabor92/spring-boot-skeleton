@@ -7,6 +7,4 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface TestRepository extends MongoRepository<Test,String> {
 
-    Test findByName(String name);
-
 }
