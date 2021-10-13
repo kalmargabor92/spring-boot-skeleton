@@ -2,7 +2,8 @@ version: '2'
 services:
 
   spring-boot-skeleton:
-    image: spring-boot-skeleton:latest
+    image: spring-boot-skeleton
+    build: .
     restart: always
     ports:
       - 8081:8081

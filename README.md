@@ -5,7 +5,7 @@ docker build -t spring-boot-skeleton:latest . --no-cache
 
 Run the docker compose file:
 ```
-docker-compose up -d
+docker-compose up -d --build
 ```
 
 now you can access:
